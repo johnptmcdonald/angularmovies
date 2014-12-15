@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'pg'
 gem 'rails_12factor'
+gem 'ngmin-rails'
 
 gem 'angularjs-rails'
 gem 'bootstrap-sass-rails'
