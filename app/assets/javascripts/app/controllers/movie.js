@@ -6,7 +6,7 @@ angular.module('popcornApp.controllers')
 
     $scope.movies = MoviesService.movies();
     $scope.movie = _.find($scope.movies, function(v){ return v.youtubeId == $routeParams.movie_id; });
-    $scope.movie.youtubeUrl = $sce.trustAsResourceUrl("https://www.youtube.com/embed/" + $scope.movie.youtubeId + "?rel=0"); 
+    $scope.movie.youtubeUrl = "https://www.youtube.com/embed/" + $scope.movie.youtubeId + "?rel=0"; 
   }
 ]);
 
