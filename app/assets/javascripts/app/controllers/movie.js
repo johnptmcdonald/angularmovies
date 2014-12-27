@@ -16,3 +16,4 @@ angular.module("popcornApp.controllers")
 // now we'll make sure the app understands that youtube stuff is a trusted resource, using $sce service
 	$scope.movie.youtubeUrl = $sce.trustAsResourceUrl("http://www.youtube.com/embed/" + $scope.movie.youtubeId + "?rel=0");
 });
+
